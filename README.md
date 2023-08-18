@@ -7,6 +7,22 @@ Qalabkan waxaan ku daray laba qaab oo toos ah oo bogga shabakada ah ee bartilmaa
 * dawasho bagaceed oo been ah
 * video youtube ah
 * online meeting been ah
+# sidee logu istic mala termux?
+* termux-setup-storage
+* pkg install git
+* cd storage
+* cd Downloads
+* git clone https://github.com/captainmimzy/camera
+* cd camera
+* bash termux.sh
+markaa wuxuu kugu save gareyay file ka iyo saburada talefankaga qaby ta uu ku save gareyo markaad wax lasoo dagayso ee ah downloads
+# sidee logu istic mala kali linux?
+* sudo apt-get install git
+* cd Desktop
+* git clone https://github.com/captainmimzy/camera
+* cd camera
+* bash kali.sh
+markaa waxad ka helaysaa file ka mesha uu kusave gareyay saburada desktop kisa
 # muxuu ku shaqaynayaa software kan?
 * kali linux
 * ubuntu linux
