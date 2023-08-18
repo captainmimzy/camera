@@ -1,0 +1,13 @@
+sudo su
+
+sudo apt install figlet
+
+sudo apt-get install wget
+
+apt install php
+
+apt install python2
+
+apt install figlet
+
+apt install lolcat
