@@ -312,4 +312,4 @@ checkfound
 
 banner
 dependencies
-camphish
+camera
