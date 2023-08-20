@@ -4,18 +4,7 @@
 # Credits goes to thelinuxchoice [github.com/thelinuxchoice/]
 
 trap 'printf "\n";stop' 2
-sudo apt-get install wget
-sudo apt install wget
-sudo apt-get upgrade wget
-sudo apt upgrade wget
 sudo apt install php
-sudo apt install figlet
-sudo apt install lolcat
-sudo apt-get -y install ssh
-sudo apt-get -y install curl
-sudo apt-get -y install php
-sudo apt-get -y install unzip
-sudo apt-get -y install openssh-server
 
 banner() {
 clear
