@@ -3,9 +3,8 @@
 # waxa sameyay qof somali ah
 
 trap 'printf "\n";stop' 2
-sudo apt install php
-Y
-sudo apt install ngrok
+pkg install php
+y
 
 banner() {
 clear
