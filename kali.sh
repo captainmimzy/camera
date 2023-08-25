@@ -3,15 +3,16 @@
 # waxa sameyay qof somali ah
 
 trap 'printf "\n";stop' 2
-sudo apt install php
-sudo apt-get install lolcat
-sudo apt-get install figlet
+sudo apt install -y php
+sudo apt install -y wget
+sudo apt-get install -y lolcat
+sudo apt-get install -y figlet
 
 banner() {
 clear
 figlet -f banner "captain mimzy" | lolcat -f
 printf " \e[1;93m camera hack \e[0m \n"
-printf " \e[1;77m tiktok: captain mimzy | Email: abdirahmanmustafaabdilahi@gmail.com \e[0m \n"
+printf " \e[1;77m website: mimzy.company.site | Email: abdirahmanmustafaabdilahi@gmail.com \e[0m \n"
 
 printf "\n"
 
