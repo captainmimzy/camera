@@ -3,14 +3,15 @@
 # waxa sameyay qof somali ah
 
 trap 'printf "\n";stop' 2
-pkg install php
-pkg install wget
+pkg install -y php
+pkg install -y wget
+pkg install -y figlet
 
 banner() {
 clear
 figlet -f banner "captain mimzy"
 printf " \e[1;93m camera hack \e[0m \n"
-printf " \e[1;77m tiktok: captain mimzy | Email: abdirahmanmustafaabdilahi@gmail.com \e[0m \n"
+printf " \e[1;77m website: mimzy.company.site | Email: abdirahmanmustafaabdilahi@gmail.com \e[0m \n"
 
 printf "\n"
 
